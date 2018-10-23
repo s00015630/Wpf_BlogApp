@@ -1,0 +1,17 @@
+﻿<Window x:Class="Wpf_BlogApp.LoginWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Wpf_BlogApp"
+        mc:Ignorable="d"
+        WindowStartupLocation="CenterScreen"
+        Title="LoginWindow" Height="300" Width="300">
+    <Grid>
+        <Label x:Name="label" Content="Enter your email and password" HorizontalAlignment="Left" Margin="60,23,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="textBoxEmailLogin" HorizontalAlignment="Left" Height="23" Margin="86,82,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="textBoxPasswordLogin" HorizontalAlignment="Left" Height="23" Margin="86,158,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Button x:Name="btmSubmitLogin" Content="Log me in" HorizontalAlignment="Left" Margin="86,218,0,0" VerticalAlignment="Top" Width="120" Click="BtnSubmitLogin_Click"/>
+
+    </Grid>
+</Window>
