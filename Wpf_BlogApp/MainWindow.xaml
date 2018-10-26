@@ -7,11 +7,11 @@
         mc:Ignorable="d"
         WindowStartupLocation="CenterScreen"
         Title="MainWindow" Height="350" Width="525">
-        
+
     <Grid>
-        <Label x:Name="label" Content="Welcome to this blog" HorizontalAlignment="Left" Margin="192,34,0,0" VerticalAlignment="Top" Width="134"/>
-        <Button x:Name="btnJoin" Content="NewMemberJoin" HorizontalAlignment="Left" Margin="221,100,0,0" VerticalAlignment="Top" Width="75" Click="NewMemberJoin"/>
-        <Button x:Name="btnLogin" Content="Login" HorizontalAlignment="Left" Margin="221,174,0,0" VerticalAlignment="Top" Width="75" Click="BtnLogin_Click"/>
-        <Button x:Name="btnExit" Content="Exit" HorizontalAlignment="Left" Margin="221,255,0,0" VerticalAlignment="Top" Width="75" Click="ExitMain"/>
+        <Label x:Name="label" Content="Welcome to the Members App" HorizontalAlignment="Left" Margin="170,34,0,0" VerticalAlignment="Top" Width="178"/>
+        <Button x:Name="btnJoin" Content="New Members" HorizontalAlignment="Left" Margin="212,100,0,0" VerticalAlignment="Top" Width="84" Click="NewMemberJoin"/>
+        <Button x:Name="btnLogin" Content="Login" HorizontalAlignment="Left" Margin="212,174,0,0" VerticalAlignment="Top" Width="84" Click="BtnLogin_Click"/>
+        <Button x:Name="btnExit" Content="Exit" HorizontalAlignment="Left" Margin="212,255,0,0" VerticalAlignment="Top" Width="84" Click="ExitMain"/>
     </Grid>
 </Window>

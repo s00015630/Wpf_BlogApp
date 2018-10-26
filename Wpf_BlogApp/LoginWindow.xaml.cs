@@ -71,7 +71,7 @@ namespace Wpf_BlogApp
             string strFromLogin = textBoxEmailLogin.Text;
 
             this.Visibility = Visibility.Hidden;
-            LoggedInWindow loggedInWindow = new LoggedInWindow(strFromLogin);         
+            DisplayAllMembers loggedInWindow = new DisplayAllMembers(strFromLogin);         
             loggedInWindow.Owner = this;
             loggedInWindow.ShowDialog();
             textBoxEmailLogin.Text = loggedInWindow.strFromLogin;
